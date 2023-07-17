@@ -1,0 +1,90 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #eee;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .score-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .score {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .new-game-btn {
+    padding: 8px 16px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .game-container {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-row {
+    display: flex;
+  }
+  
+  .grid-cell {
+    width: 100%;
+    padding: 20px;
+    font-size: 24px;
+    color: #333;
+    background-color: #eee;
+    text-align: center;
+    border-radius: 4px;
+  }
+  
+  /* Add styles for different cell values (e.g., 2, 4, 8, etc.) */
+  .cell-2 {
+    background-color: #eee4da;
+    color: #776e65;
+  }
+  
+  .cell-4 {
+    background-color: #ede0c8;
+    color: #776e65;
+  }
+  
+  /* Add more styles for higher cell values as desired */
+  
+  
